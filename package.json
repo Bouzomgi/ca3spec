@@ -6,10 +6,16 @@
     "type": "git",
     "url": "git+https://github.com/Bouzomgi/ca3spec.git"
   },
+  "scripts": {
+    "validate": "swagger-cli validate spec.yaml"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bouzomgi/ca3spec/issues"
   },
-  "homepage": "https://github.com/Bouzomgi/ca3spec#readme"
+  "homepage": "https://github.com/Bouzomgi/ca3spec#readme",
+  "dependencies": {
+    "swagger-cli": "^4.0.4"
+  }
 }

@@ -37,7 +37,7 @@ paths:
       summary: Create a new User
       description: Create a new User
       requestBody:
-        required: "true"
+        required: true
         content:
           application/json:
             schema:
@@ -60,7 +60,7 @@ paths:
       summary: Delete a User
       description: Remove a User and their data from our records
       requestBody:
-        required: "true"
+        required: true
         content:
           application/json:
             schema:
