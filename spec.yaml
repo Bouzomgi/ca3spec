@@ -20,12 +20,16 @@ paths:
                   properties:
                     userId:
                       type: number
+                      example: 12345
                     email:
                       type: string
+                      example: sample@gmail.com
                     username:
                       type: string
+                      example: Mike Jones
                     bio:
                       type: string
+                      example: I like to bike
         "500":
           description: Internal Server Error
   /user:
