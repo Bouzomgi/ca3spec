@@ -20,19 +20,14 @@ paths:
                   properties:
                     userId:
                       type: number
-                      required: true
-                      example: "12345"
                     email:
                       type: string
-                      required: true
                       example: sample@gmail.com
                     username:
                       type: string
-                      required: true
                       example: Mike Jones
                     bio:
                       type: string
-                      required: true
                       example: I like to bike
         "500":
           description: Internal Server Error
@@ -49,11 +44,9 @@ paths:
               properties:
                 email:
                   type: string
-                  required: true
                   example: Mike123
                 password:
                   type: string
-                  required: true
                   example: password123
       responses:
         "201":
@@ -74,7 +67,6 @@ paths:
               properties:
                 userId:
                   type: string
-                  required: true
                   example: 12345
       responses:
         "200":
