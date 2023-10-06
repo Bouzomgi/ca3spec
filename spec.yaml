@@ -72,6 +72,8 @@ paths:
                   message:
                     type: string
                     example: User created successfully
+                required:
+                  - message
         "400":
           description: Invalid Request
           content:
