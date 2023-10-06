@@ -41,6 +41,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ServerError500"
+  /user:
     post:
       summary: Create a new User
       description: Create a new User
