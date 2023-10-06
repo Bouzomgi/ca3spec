@@ -58,6 +58,9 @@ paths:
                 password:
                   type: string
                   example: password123
+              required:
+                - email
+                - password
       responses:
         "201":
           description: Successfully created User
