@@ -18,7 +18,7 @@ paths:
                 items:
                   type: object
                   properties:
-                    userId:
+                    userID:
                       type: number
                       example: 12345
                     email:
