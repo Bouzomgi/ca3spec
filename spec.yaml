@@ -31,7 +31,7 @@ paths:
                       type: string
                       example: I like to bike
                   required:
-                    - userId
+                    - userID
                     - email
                     - username
                     - bio
