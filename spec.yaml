@@ -18,7 +18,7 @@ paths:
                 items:
                   type: object
                   properties:
-                    userID:
+                    id:
                       type: number
                       example: 12345
                     email:
@@ -31,7 +31,7 @@ paths:
                       type: string
                       example: I like to bike
                   required:
-                    - userId
+                    - id
                     - email
                     - username
                     - bio
