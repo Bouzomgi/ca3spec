@@ -31,7 +31,7 @@ paths:
                       type: string
                       example: I like to bike
                   required:
-                    - userID
+                    - userId
                     - email
                     - username
                     - bio
@@ -86,11 +86,12 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ServerError500"
+  /user/{id}:
     delete:
       summary: Delete a User
       description: Remove a User and their data from our records
       parameters:
-        - name: userID
+        - name: id
           in: path
           description: ID of user to delete
           required: true
