@@ -96,7 +96,7 @@ paths:
           description: ID of user to delete
           required: true
           schema:
-            type: string
+            type: number
             example: 12345
       responses:
         "200":
